@@ -42,5 +42,28 @@ anton.rak.1996@mail.ru
 * Sport
 * Music
 
+#### Code example
+*
+<?php
+function php_number_count($string)
+{
+$result = 0;
+$len = strlen($string);
+
+for($i = 0; $i < $len; $i++){
+if (is_numeric($string[$i])) {
+$result += $string[$i];
+} 
+}
+
+return $result;
+}
+
+$string = "1g2a3";
+
+$result = php_number_count($string); // 6
+echo $result;
+*
+
 
 
