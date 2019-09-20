@@ -26,30 +26,6 @@ Fulfillment of tasks associated with Front web development - End, Backend, compl
 * HTML5 - 65%
 * CSS - 60%
 
-#### Code example 
-`` `
-<?php
-function php_number_count($string)
-{
-$result = 0;
-$len = strlen($string);
-
-for($i = 0; $i < $len; $i++){
-if (is_numeric($string[$i])) {
-$result += $string[$i];
-} 
-}
-
-return $result;
-}
-
-$string = "1g2a3";
-
-$result = php_number_count($string); // 6
-echo $result;
-`` `
-
-
 #### ABOUT ME 
 I lead an active lifestyle, I have no bad habits, responsible, persistent, purposeful, fast learner, ability to work in a team, focus on results.
 
