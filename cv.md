@@ -43,8 +43,8 @@ anton.rak.1996@mail.ru
 * Music
 
 #### Code example
-*
-<?php
+
+    <?php
 function php_number_count($string)
 {
 $result = 0;
@@ -63,7 +63,7 @@ $string = "1g2a3";
 
 $result = php_number_count($string); // 6
 echo $result;
-*
+
 
 
 
