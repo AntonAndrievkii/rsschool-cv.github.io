@@ -27,6 +27,7 @@ Fulfillment of tasks associated with Front web development - End, Backend, compl
 * CSS - 60%
 
 #### Code example 
+`` `
 <?php
 function php_number_count($string)
 {
@@ -46,7 +47,7 @@ $string = "1g2a3";
 
 $result = php_number_count($string); // 6
 echo $result;
-
+`` `
 
 
 #### ABOUT ME 
